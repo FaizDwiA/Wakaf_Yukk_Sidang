@@ -1,0 +1,352 @@
+.body {
+    background-color: #C0E063;
+    height: 2800px;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #C0E063;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%; 
+}
+
+.collapse .nav-link{
+    color: black;
+    cursor: pointer;
+}
+
+.collapse .nav-link:hover{
+    color: #C0E063;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-button .btn-2{
+    background-color: #C0E063;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+} 
+
+.nav-button .btn-2:hover{
+    background-color: white;
+    color: #C0E063;
+    outline: 1px solid #C0E063;
+}
+
+.nav-button .btn-1{
+    background-color: white;
+    color: #C0E063;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 1px solid #C0E063;
+} 
+
+.nav-button .btn-1:hover{
+    background-color: #C0E063;
+    color: white;
+}
+
+.shapes{
+    width: 100%;
+    height: 1280px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-bottom-left-radius: 10% 80px;
+    border-bottom-right-radius: 10% 80px;
+}
+
+.carousel-item img {
+    height: 500px;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.carousel-indicators-custom {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel-indicators-custom div {
+    width: 50px;
+    height: 3px;
+    background-color: #bbb;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators-custom .active {
+    background-color: #444;
+}
+
+.custom-section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;  
+    margin-top: 80px;
+    height: 525px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.section-header p {
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+}
+
+.custom-column h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.custom-column ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.custom-column ul li {
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.h3-1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+.custom-block-overlay {
+    margin-top: px;
+    border-color: transparent;
+    padding: 0;
+    background-color: white;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.custom-block-overlay .custom-block-image {
+    margin: auto;
+    width: 100%;
+    height: 160px;
+    transition: all 0.3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.custom-block-overlay:hover .custom-block-image {
+    padding: 10px;
+    border-radius:15px;
+}
+
+.custom-block-overlay-info {
+    padding: 15px 20px 20px 20px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.hover-button {
+    background-color: #ffffff;
+    margin-top: 40px;
+    color: black;
+    border: none;
+    padding: 7px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #C0E063;
+    color: white;
+    outline: 1.5px solid white;
+}
+
+.progress-1{
+    background-color: #C0E063;
+}
+
+.shapes-2{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-top-left-radius: 10% 80px;
+    border-top-right-radius: 10% 80px;
+}
+
+.h3-2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.service .service-item {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.service .service-item:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.service .service-item .h4{
+    text-decoration: none;
+}
+
+.service .service-item .service-img {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.service .service-item .service-img img {
+    transition: 0.5s;
+}
+
+.service .service-item:hover .service-img img {
+    transform: scale(1.2);
+}
+
+.button-container {
+    text-align: center;
+  }
+  
+  .hover-button-1 {
+    background-color: #C0E063;
+    margin-top: 5px;
+    color: white;
+    border: none;
+    padding: 7px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .hover-button-1:hover {
+    background-color: white;
+    color: black;
+    outline: 1.5px solid black;
+  }
+
+  .footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+
+.copyright {
+    color: black;
+}
+
+.copyright a {
+    color: black;
+}
+
+
+@media (max-width: 1000px) {
+        .custom-section {
+            height: auto;
+            padding: auto;
+        }
+        .shapes{
+            height: 240vh;
+        }
+        .h3-1{
+            margin-top: 50px;
+        }
+        .shapes-2{
+            height: 1000px;
+        }
+    }
+
+@media (max-width: 768px) {
+        .shapes {
+        height: 258vh;
+        border-bottom-left-radius: 20% 80px;
+        border-bottom-right-radius: 20% 80px;
+        }
+        .shapes-2{
+            height: 1550px;
+        }
+    }
+@media (max-width: 480px) {
+        .shapes {
+        height: 260vh;
+        border-bottom-left-radius: 20% 80px;
+        border-bottom-right-radius: 20% 80px;
+        }
+        .shapes-2{
+            border-top-left-radius: 10% 80px;
+            border-top-right-radius: 10% 80px;
+        }
+    }

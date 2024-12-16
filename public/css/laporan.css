@@ -1,0 +1,210 @@
+.body {
+    background-color: #C0E063;
+    height: 1200px;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #C0E063;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%; 
+}
+
+.collapse .nav-link{
+    color: black;
+    cursor: pointer;
+}
+
+.collapse .nav-link:hover{
+    color: #C0E063;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-button .btn-2{
+    background-color: #C0E063;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+} 
+
+.nav-button .btn-2:hover{
+    background-color: white;
+    color: #C0E063;
+    outline: 1px solid #C0E063;
+}
+
+.nav-button .btn-1{
+    background-color: white;
+    color: #C0E063;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: 1px solid #C0E063;
+} 
+
+.nav-button .btn-1:hover{
+    background-color: #C0E063;
+    color: white;
+}
+
+.shapes{
+    width: 100%;
+    height: 1925px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.h3{
+    display: flex;
+    margin-left: 80px;
+}
+
+.h3-2{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.custom-block-overlay {
+    margin-top: 20px;
+    border-color: transparent;
+    padding: 0;
+    outline: 2px solid #C0E063;
+    background-color: white;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.custom-block-overlay .custom-block-image {
+    margin: auto;
+    width: 100%;
+    height: 160px;
+    transition: all 0.3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.custom-block-overlay:hover .custom-block-image {
+    padding: 10px;
+    border-radius:15px;
+}
+
+.custom-block-overlay-info {
+    padding: 15px 20px 20px 20px;
+}
+
+.btn-lap{
+    padding: 0px 15px 15px 15px;
+}
+
+.btn-lap .btn-3{
+    background-color: #C0E063;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+} 
+
+.btn-lap .btn-3:hover{
+    background-color: white;
+    color: #C0E063;
+    outline: 1px solid #C0E063;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.hover-button {
+    background-color: #C0E063;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    padding: 7px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #ffff;
+    color: #C0E063;
+    outline: 1.5px solid #C0E063;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: black;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    color: black;
+}
+
+.copyright a {
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    .shapes{
+        height: 3400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shapes{
+        height: 6150px;
+    }
+}
+
+@media (max-width: 523px) {
+    .shapes{
+        height: 6150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .shapes{
+        height: 6600px;
+    }
+}
