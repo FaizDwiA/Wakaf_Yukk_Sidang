@@ -6,7 +6,9 @@ use App\Http\Controllers\beritaController;
 use App\Http\Controllers\programController;
 use App\Http\Controllers\homeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ItemController;
 
+Route::resource('items', ItemController::class);
 Route::get('/home', [homeController::class, 'home']);
 Route::get('/program', [programController::class, 'program']);
 Route::get('/berita', [beritaController::class, 'berita']);
