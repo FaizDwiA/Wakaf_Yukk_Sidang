@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-    <link rel="icon" href="{{ asset('assets/img/logo1.png') }}">
+    <link rel="icon" href="{{ asset('assets/img/wakaflogo1.png') }}">
     <title>Wakaf Yuk!</title>
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -90,7 +90,7 @@
       <nav class="navbar navbar-expand-lg bg-light shadow-sm sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="assets/img/logo1.png" alt="Logo">
+            <img src="assets/img/wakaflogo1.png" alt="Logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -98,19 +98,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link mx-4" href="#">Home</a>
+                <a class="nav-link mx-4" href="/home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-4" href="#">Program Wakaf</a>
+                <a class="nav-link mx-4" href="/program">Program Wakaf</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-4" href="#">Berita</a>
+                <a class="nav-link mx-4" href="/berita">Berita</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-4" href="#">Laporan</a>
+                <a class="nav-link mx-4" href="/laporan">Laporan</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link mx-4" href="#">Tentang Kami</a>
+                <a class="nav-link mx-4" href="/tentang_kami">Tentang Kami</a>
               </li>
             </ul>
             <div class="nav-button d-flex">
@@ -130,13 +130,13 @@
         <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://via.placeholder.com/800x400?text=Slide+1" class="d-block w-100" alt="Slide 1">
+              <img src="{{ asset('assets/img/corousel1.png') }}" class="d-block w-100" alt="Slide 1">
             </div>
             <div class="carousel-item">
-              <img src="https://via.placeholder.com/800x400?text=Slide+2" class="d-block w-100" alt="Slide 2">
+              <img src="{{ asset('assets/img/corousel2.png') }}" class="d-block w-100" alt="Slide 2">
             </div>
             <div class="carousel-item">
-              <img src="https://via.placeholder.com/800x400?text=Slide+3" class="d-block w-100" alt="Slide 3">
+              <img src="{{ asset('assets/img/wakaf3.png') }}" class="d-block w-100" alt="Slide 3">
             </div>
           </div>
     
@@ -193,7 +193,7 @@
               <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-overlay">
                     <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="https://via.placeholder.com/800x400?text=Slide+1"
+                        <img src="{{ asset('assets/img/wakaf1.jpg') }}"
                             class="custom-block-image img-fluid" alt="">
                     </a>
 
@@ -208,7 +208,7 @@
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-overlay">
                     <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="https://via.placeholder.com/800x400?text=Slide+2"
+                        <img src="{{ asset('assets/img/wakaf2.png') }}"
                             class="custom-block-image img-fluid" alt="">
                     </a>
 
@@ -223,7 +223,7 @@
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-overlay">
                     <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="https://via.placeholder.com/800x400?text=Slide+3"
+                        <img src="{{ asset('assets/img/wakaf3.png') }}"
                             class="custom-block-image img-fluid" alt="">
                     </a>
 
@@ -238,7 +238,7 @@
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-overlay">
                     <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="https://via.placeholder.com/800x400?text=Slide+4"
+                        <img src="{{ asset('assets/img/wakaf4.jpg') }}"
                             class="custom-block-image img-fluid" alt="">
                     </a>
 
@@ -264,7 +264,7 @@
                   <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                       <div class="service-item">
                           <div class="service-img">
-                              <img src="https://via.placeholder.com/800x400?text=Slide+1" class="img-fluid rounded-top w-100" alt="Image">
+                              <img src="{{ asset('assets/img/wakaf1.jpg') }}" class="img-fluid rounded-top w-100" alt="Image">
                           </div>
                           <div class="rounded-bottom p-4">
                               <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
@@ -276,7 +276,7 @@
                   <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                       <div class="service-item">
                           <div class="service-img">
-                              <img src="https://via.placeholder.com/800x400?text=Slide+2" class="img-fluid rounded-top w-100" alt="Image">
+                              <img src="{{ asset('assets/img/wakaf2.png') }}" class="img-fluid rounded-top w-100" alt="Image">
                           </div>
                           <div class="rounded-bottom p-4">
                               <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
@@ -288,7 +288,7 @@
                   <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                       <div class="service-item">
                           <div class="service-img">
-                              <img src="https://via.placeholder.com/800x400?text=Slide+3" class="img-fluid rounded-top w-100" alt="Image">
+                              <img src="{{ asset('assets/img/wakaf4.jpg') }}" class="img-fluid rounded-top w-100" alt="Image">
                           </div>
                           <div class="rounded-bottom p-4">
                               <a href="#" class="h4 d-inline-block mb-4">Managements</a>

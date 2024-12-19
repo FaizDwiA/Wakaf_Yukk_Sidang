@@ -96,19 +96,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="#">Home</a>
+                    <a class="nav-link mx-4" href="/home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="#">Program Wakaf</a>
+                    <a class="nav-link mx-4" href="/program">Program Wakaf</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="#">Berita</a>
+                    <a class="nav-link mx-4" href="/berita">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="#">Laporan</a>
+                    <a class="nav-link mx-4" href="/laporan">Laporan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-4" href="#">Tentang Kami</a>
+                    <a class="nav-link mx-4" href="/tentang_kami">Tentang Kami</a>
                     </li>
                 </ul>
             <div class="nav-button d-flex">
